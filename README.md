@@ -1,6 +1,6 @@
 <h2 align="center"> Проект по автоматизации тестирования мобильной версии сайта wikipedia.org </h2>
 <p  align="center">
-    ![image](https://user-images.githubusercontent.com/51287303/224554934-997460c3-ac9a-47b5-9507-8fb410c35f2c.png)
+<img src="images/logo/wiki.PNG">
 
 </p>
 
@@ -14,7 +14,6 @@
 + [Telegram уведомления](#Telegram-уведомления)
 + [Результаты тестов в Allure Report](#Результаты-тестов-в-Allure-Report)
 + [Интеграция с Allure TestOps](#Интеграция-с-Allure-TestOps)
-+ [Интеграция с Jira](#Интеграция-с-Jira)
 + [Видео запуска тестов](#Видео-запуска-тестов)
 
 
@@ -27,7 +26,6 @@
 - [x] Конфигурация с библиотекой `Owner`
 - [x] Интеграция с `Allure TestOps`
 - [x] Автотесты как тестовая документация
-- [x] Интеграция с `Jira`
 - [x] Уведомления в Telegram
 
 
@@ -43,7 +41,6 @@
   <code><img width="5%" title="Allure TestOps" src="./images/icons/allure-ee-logo.svg"></code>
   <code><img width="5%" title="Github" src="./images/icons/git-logo.svg"></code>
   <code><img width="5%" title="Jenkins" src="./images/icons/jenkins-logo.svg"></code>
-  <code><img width="5%" title="Jira" src="./images/icons/jira-logo.svg"></code>
   <code><img width="5%" title="Telegram" src="./images/icons/Telegram.svg"></code>
   <code><img width="5%" title="Browserstack" src="./images/icons/browserstack.svg"></code>
   <code><img width="5%" title="Android Studio" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg"></code>
@@ -69,7 +66,7 @@
 
 ## <a name="GradleCommand">Команды для Gradle</a>
 
-Для запуска локально и в Jenkins используется следующая команда::
+Для запуска локально и в Jenkins используется следующая команда:
 ```bash
 gradle clean
 ${deviceHost}
@@ -82,7 +79,7 @@ ${deviceHost}
 >- *mobile - запускается автотест для Android в Android Studio*
  
 
-Дополнительные свойства извлекаются из соответствующего файла конфигурации (в зависимости от значения `runIn`):
+Дополнительные свойства извлекаются из соответствующего файла конфигурации (в зависимости от значения `deviceHost`):
 ```bash
 ./resources/${deviceHost}.properties
 ```
@@ -97,5 +94,107 @@ B --> K[BrowserStack]
 C --> E[BrowserStack]
 D --> G[Android Studio]
 ```
+
+[Вернуться к оглавлению ⬆](#Содержание)
+
+## <a name="Запуск в Jenkins">Запуск в [Jenkins](https://jenkins.autotests.cloud/job/utebaliyevabotakoz_project_mobile/)</a>
+
+
+Сборка с параметрами в Jenkins запускается с необходимым ***deviceHost***:
+
+<p  align="center"> <img src="images/screens/JenkinsMain.png" width="950"> </p>
+
+
+
+Главная страница проекта:
+<p  align="center">
+<img src="images/screens/JenkinsHistory.PNG" width="950">
+</p>
+
+
+Результат сборки проекта доступен в:
+>- <code><strong>*Allure Report*</strong></code>
+>- <code><strong>*Telegram bot*</strong></code>
+>- <code><strong>*Allure TestOps*</strong></code>
+
+
+[Вернуться к оглавлению ⬆](#Содержание)
+
+
+## <a name="Уведомление в Telegram о результатах прогона тестов">[Уведомление в Telegram о результатах прогона тестов](https://t.me/Qa_botakoz_bot)</a>
+
+Telegram-бот Autotests bot отправляет графический отчет каждой сборки.
+<p  align="center"> <img src="images/screens/Telegram1.PNG" width="950"></p>
+
+
+
+# <a name="AllureReport">Результаты тестов в [Allure Report](https://jenkins.autotests.cloud/job/utebaliyevabotakoz_project_mobile/allure/allure)</a>
+
+## Главное окно
+
+
+<p align="center">
+  <img src="images/screens/Allure1.PNG" width="950">
+</p>
+
+##  Тесты
+
+<p align="center">
+  <img src="images/screens/Allure2.PNG" width="950">
+</p>
+
+<p align="center">
+  <img src="images/screens/Allure3.PNG" width="950">
+</p>
+
+
+##  Графики
+
+<p align="center">
+  <img src="images/screens/Allure4.PNG" width="950">
+</p>
+
+<p align="center">
+  <img src="images/screens/Allure5.PNG" width="950">
+</p>
+
+<p align="center">
+  <img src="images/screens/Allure6.PNG" width="950">
+</p>
+
+
+[Вернуться к оглавлению ⬆](#Содержание)
+
+# <a>Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/20439/tree?treeId=0)</a>
+
+
+## Allure TestOps Dashboard
+
+<p align="center">
+  <img src="images/screens/Testopps1.PNG" width="950">
+</p>
+
+## Allure TestOps Test Cases
+
+<p align="center">
+  <img src="images/screens/Testopps2.PNG" width="950">
+</p>
+
+<p align="center">
+  <img src="images/screens/Testopps3.PNG" width="950">
+</p>
+
+<p align="center">
+  <img src="images/screens/Testopps4.PNG" width="950">
+</p>
+
+[Вернуться к оглавлению ⬆](#Содержание)
+
+
+# <a>Пример видео прохождения теста в Browserstack</a>
+
+<p align="center">
+  <img src="images/video/android.mp4" >
+</p>
 
 [Вернуться к оглавлению ⬆](#Содержание)
