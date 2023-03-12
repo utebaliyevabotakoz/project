@@ -1,6 +1,6 @@
 <h2 align="center"> Проект по автоматизации тестирования мобильной версии сайта wikipedia.org </h2>
 <p  align="center">
-<img src="images/screens/wiki.PNG">
+<img src="images/logo/wiki.PNG">
 
 </p>
 
