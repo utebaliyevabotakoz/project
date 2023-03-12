@@ -112,28 +112,26 @@ D --> G[Android Studio]
 </p>
 
 
-Результат сборки проекта доступны в:
+Результат сборки проекта доступен в:
 >- <code><strong>*Allure Report*</strong></code>
 >- <code><strong>*Telegram bot*</strong></code>
->- <code><strong>*Allure TestOps*</strong></code> - здесь можно просмотреть результаты и тест-кейсы
+>- <code><strong>*Allure TestOps*</strong></code>
 
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
 
-## <a name="Telegram уведомления">[Уведомление в Telegram о результатах прогона тестов] (https://t.me/Qa_botakoz_bot) </a>
+## <a name="Уведомление в Telegram о результатах прогона тестов">[Уведомление в Telegram о результатах прогона тестов](https://t.me/Qa_botakoz_bot)</a>
 
 Telegram-бот Autotests bot отправляет графический отчет каждой сборки.
-<p  align="center">
-<img src="images/screens/Telegram1.PNG" width="550">
-</p>
+<p  align="center"> <img src="images/screens/Telegram1.PNG" width="950"></p>
 
-[Вернуться к оглавлению ⬆](#Содержание)
+
 
 # <a name="AllureReport">Результаты тестов в [Allure Report](https://jenkins.autotests.cloud/job/utebaliyevabotakoz_project_mobile/allure/allure)</a>
 
 ## Главное окно
-Главная страница отчета Allure содержит следующие блоки:
+
 
 <p align="center">
   <img src="images/screens/Allure1.PNG" width="950">
