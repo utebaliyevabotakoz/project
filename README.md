@@ -31,20 +31,19 @@
 
 # <a name="Технологии и инструменты">Технологии и инструменты</a>
 <p  align="center">
-  <code><img width="5%" title="IntelliJ IDEA" src="./images/icons/IDEA-logo.svg"></code>
-  <code><img width="5%" title="Java" src="./images/icons/java-logo.svg"></code>
-  <code><img width="5%" title="Selenide" src="./images/icons/selenide-logo.svg"></code>
-  <code><img width="5%" title="Selenoid" src="./images/icons/selenoid-logo.svg"></code>
-  <code><img width="5%" title="Gradle" src="./images/icons/gradle-logo.svg"></code>
-  <code><img width="5%" title="JUnit5" src="./images/icons/junit5-logo.svg"></code>
-  <code><img width="5%" title="Allure Report" src="./images/icons/allure-Report-logo.svg"></code>
-  <code><img width="5%" title="Allure TestOps" src="./images/icons/allure-ee-logo.svg"></code>
-  <code><img width="5%" title="Github" src="./images/icons/git-logo.svg"></code>
-  <code><img width="5%" title="Jenkins" src="./images/icons/jenkins-logo.svg"></code>
-  <code><img width="5%" title="Telegram" src="./images/icons/Telegram.svg"></code>
-  <code><img width="5%" title="Browserstack" src="./images/icons/browserstack.svg"></code>
-  <code><img width="5%" title="Android Studio" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg"></code>
-  <code><img width="5%" title="Appium" src="./images/icons/appium.svg"></code>
+  <code><img width="5%" title="IntelliJ IDEA" src="./images/logo/Idea.svg"></code>
+  <code><img width="5%" title="Java" src="./images/logo/Java.svg.svg"></code>
+  <code><img width="5%" title="Selenide" src="./images/logo/Selenide.svg.svg"></code>
+  <code><img width="5%" title="Gradle" src="./images/logo/Gradle.svg.svg"></code>
+  <code><img width="5%" title="JUnit5" src="./images/logo/Junit5.svg.svg"></code>
+  <code><img width="5%" title="Allure Report" src="./images/logo/Allure.svg.svg"></code>
+  <code><img width="5%" title="Allure TestOps" src="./images/logo/TestOps.svg"></code>
+  <code><img width="5%" title="Github" src="./images/logo/GitHub.svg.svg"></code>
+  <code><img width="5%" title="Jenkins" src="./images/logo/Jenkins.svg.svg"></code>
+  <code><img width="5%" title="Telegram" src="./images/logo/Telegram.svg"></code>
+  <code><img width="5%" title="Browserstack" src="./images/logo/browserstack.svg"></code>
+  <code><img width="5%" title="Android Studio" src="./images/logo/AndroidStudio.svg"></code>
+  <code><img width="5%" title="Appium" src="./images/logo/appium.svg"></code>
 </p>
 
 
