@@ -97,11 +97,13 @@ D --> G[Android Studio]
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-## <a name="Запуск в Jenkins">Запуск в [Jenkins] (https://jenkins.autotests.cloud/job/utebaliyevabotakoz_project_mobile/) </a>
+## <a name="Запуск в Jenkins">Запуск в [Jenkins](https://jenkins.autotests.cloud/job/utebaliyevabotakoz_project_mobile/)</a>
+
 
 Сборка с параметрами в Jenkins запускается с необходимым ***deviceHost***:
 
 <p  align="center"> <img src="images/screens/JenkinsMain.png" width="950"> </p>
+
 
 
 Главная страница проекта:
@@ -112,12 +114,14 @@ D --> G[Android Studio]
 
 Результат сборки проекта доступны в:
 >- <code><strong>*Allure Report*</strong></code>
->>- <code><strong>*Telegram bot*</strong></code>
+>- <code><strong>*Telegram bot*</strong></code>
 >- <code><strong>*Allure TestOps*</strong></code> - здесь можно просмотреть результаты и тест-кейсы
+
 
 [Вернуться к оглавлению ⬆](#Содержание)
 
-## <a name="Telegram уведомления">[Telegram уведомления] (https://t.me/Qa_botakoz_bot) </a>
+
+## <a name="Telegram уведомления">[Уведомление в Telegram о результатах прогона тестов] (https://t.me/Qa_botakoz_bot) </a>
 
 Telegram-бот Autotests bot отправляет графический отчет каждой сборки.
 <p  align="center">
