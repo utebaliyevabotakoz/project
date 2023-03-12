@@ -124,7 +124,7 @@ D --> G[Android Studio]
 ## <a name="Telegram">[Уведомление в Telegram о результатах прогона тестов](https://t.me/Qa_botakoz_bot)</a>
 
 Telegram-бот Autotests bot отправляет графический отчет каждой сборки.
-<p  align="center"> <img src="images/screens/Telegram1.PNG" width="950"></p>
+<p  align="center"> <img src="images/screens/Telegram1.PNG" width="650"></p>
 
 
 
