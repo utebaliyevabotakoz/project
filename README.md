@@ -42,6 +42,7 @@
   <code><img width="5%" title="Jenkins" src="./images/logo/Jenkins.svg"></code>
   <code><img width="5%" title="Telegram" src="./images/logo/Telegram.svg"></code>
   <code><img width="5%" title="Browserstack" src="./images/logo/browserstack.svg"></code>
+  <code><img width="5%" title="Appium-Inspector" src="./images/logo/appium-inspector.png"></code>
   <code><img width="5%" title="Android Studio" src="./images/logo/AndroidStudio.svg"></code>
   <code><img width="5%" title="Appium" src="./images/logo/appium.svg"></code>
 </p>
