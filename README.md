@@ -1,6 +1,6 @@
 <h2 align="center"> Проект по автоматизации тестирования мобильной версии сайта wikipedia.org </h2>
 <p  align="center">
-    ![image](https://user-images.githubusercontent.com/51287303/224554934-997460c3-ac9a-47b5-9507-8fb410c35f2c.png)
+<img src="images/screens/wiki.PNG">
 
 </p>
 
