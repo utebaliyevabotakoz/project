@@ -194,7 +194,7 @@ Telegram-бот Autotests bot отправляет графический отч
 # <a>Пример видео прохождения теста в Browserstack</a>
 
 <p align="center">
-  <img src="images/video/android.mp4" >
+  <img src="images/video/android.gif" >
 </p>
 
 [Вернуться к оглавлению ⬆](#Содержание)
