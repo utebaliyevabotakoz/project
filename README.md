@@ -67,3 +67,34 @@
 # <a name="Варианты запуска">Варианты запуска</a>
 
 ## <a name="GradleCommand">Команды для Gradle</a>
+
+Для запуска локально и в Jenkins используется следующая команда::
+```bash
+gradle clean
+${deviceHost}
+-DdeviceHost="${deviceHost}"
+```
+
+`deviceHost` - определяет среду для запуска этих тестов:
+>- *android - запускается автотест для Android в BrowserStack*
+>- *ios - запускается автотест для iOS в BrowserStack*
+>- *mobile - запускается автотест для Android в Android Studio*
+ 
+
+Дополнительные свойства извлекаются из соответствующего файла конфигурации (в зависимости от значения `runIn`):
+```bash
+./resources/${deviceHost}.properties
+```
+
+Допустимые комбинации:
+```mermaid
+graph LR
+A[deviceHost] --> B[android]
+A --> C[ios]
+A --> D[mobile]
+B --> K[BrowserStack]
+C --> E[BrowserStack]
+D --> G[Android Studio]
+```
+
+[Вернуться к оглавлению ⬆](#Содержание)
