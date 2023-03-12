@@ -31,20 +31,20 @@
 
 # <a name="Технологии и инструменты">Технологии и инструменты</a>
 <p  align="center">
-  <code><img width="5%" title="IntelliJ IDEA" src="./images/logo/Idea.svg"></code>
-  <code><img width="5%" title="Java" src="./images/logo/Java.svg"></code>
-  <code><img width="5%" title="Selenide" src="./images/logo/Selenide.svg"></code>
-  <code><img width="5%" title="Gradle" src="./images/logo/Gradle.svg"></code>
-  <code><img width="5%" title="JUnit5" src="./images/logo/Junit5.svg"></code>
-  <code><img width="5%" title="Allure Report" src="./images/logo/Allure.svg"></code>
-  <code><img width="5%" title="Allure TestOps" src="./images/logo/TestOps.svg"></code>
-  <code><img width="5%" title="Github" src="./images/logo/GitHub.svg"></code>
-  <code><img width="5%" title="Jenkins" src="./images/logo/Jenkins.svg"></code>
-  <code><img width="5%" title="Telegram" src="./images/logo/Telegram.svg"></code>
-  <code><img width="5%" title="Browserstack" src="./images/logo/browserstack.svg"></code>
+  <code><img width="5%" title="IntelliJ IDEA" src="./images/logo/Idea.png"></code>
+  <code><img width="5%" title="Java" src="./images/logo/Java.png"></code>
+  <code><img width="5%" title="Selenide" src="./images/logo/Selenide.png"></code>
+  <code><img width="5%" title="Gradle" src="./images/logo/Gradle.png"></code>
+  <code><img width="5%" title="JUnit5" src="./images/logo/Junit5.png"></code>
+  <code><img width="5%" title="Allure Report" src="./images/logo/Allure.png"></code>
+  <code><img width="5%" title="Allure TestOps" src="./images/logo/TestOps.png"></code>
+  <code><img width="5%" title="Github" src="./images/logo/GitHub.png"></code>
+  <code><img width="5%" title="Jenkins" src="./images/logo/Jenkins.png"></code>
+  <code><img width="5%" title="Telegram" src="./images/logo/Telegram.png"></code>
+  <code><img width="5%" title="Browserstack" src="./images/logo/browserstack.png"></code>
   <code><img width="5%" title="Appium-Inspector" src="./images/logo/appium-inspector.png"></code>
-  <code><img width="5%" title="Android Studio" src="./images/logo/AndroidStudio.svg"></code>
-  <code><img width="5%" title="Appium" src="./images/logo/appium.svg"></code>
+  <code><img width="5%" title="Android Studio" src="./images/logo/AndroidStudio.png"></code>
+  <code><img width="5%" title="Appium" src="./images/logo/appium.png"></code>
 </p>
 
 
